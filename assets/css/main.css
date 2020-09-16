@@ -2819,8 +2819,8 @@ input, select, textarea {
 			margin-left: 2em;
 			margin-top: 3em;
 			padding-top: 10px;
-			padding-right: 5px; 
-			padding-left: 5px;
+			padding-right: 20px; 
+			padding-left: 20px;
 			padding-bottom: 5px;
 			border: solid 1px;
 			border-color: #f1e4db;
@@ -3804,4 +3804,13 @@ input, select, textarea {
     width: 60%;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(19,175,240), rgba(0, 0, 0, 0));
+}
+
+.extasks li {
+	width: 100%;
+	border: solid 2px rgb(240,240,240);
+	box-shadow: none;
+	margin: 0 0 5px 0;
+	padding-left: 1px;
+	padding-bottom: 3px;
 }
