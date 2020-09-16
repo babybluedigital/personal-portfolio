@@ -3827,6 +3827,14 @@ input, select, textarea {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(19,175,240), rgba(0, 0, 0, 0));
 }
 
+.exsplit2 {
+    border: 0;
+    margin: -1em auto;
+    width: 20%;
+    height: 2px;
+    background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+}
+
 .extasks li {
 	width: 100%;
 	/*border: solid 2px 0px 0px 0px rgb(240,240,240);*/
