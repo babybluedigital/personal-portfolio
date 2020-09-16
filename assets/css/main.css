@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -307,7 +308,7 @@ input, select, textarea {
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: #13aff0;
 	}
 
 	strong, b {
@@ -3795,4 +3796,12 @@ input, select, textarea {
 /*Experience Logo Size*/
 .exlogo {
 	width: 20%;
+}
+
+.exsplit {
+    border: 0;
+    margin: -1em auto;
+    width: 60%;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(19,175,240), rgba(0, 0, 0, 0));
 }
