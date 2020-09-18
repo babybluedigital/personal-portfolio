@@ -3879,7 +3879,7 @@ input, select, textarea {
 	  padding: 2px;
 	  border-radius: 15px;
 	  margin-bottom: 5px;
-	  font-size: 18px;
+	  font-size: 17px;
 	  color: #FFF;
 	  font-weight: bold;
 	  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
@@ -3889,7 +3889,7 @@ input, select, textarea {
 	  content:  attr(data-skill);
 	  background-color: #13aff0;
 	  display: inline-block;
-	  padding: 5px 0 5px 10px;
+	  padding: 5px 0 5px 13px;
 	  border-radius: inherit;
 	  animation: load 2s 0s;
 	  -webkit-animation: load 2s 0s;
