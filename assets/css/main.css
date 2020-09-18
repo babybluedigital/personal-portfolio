@@ -2838,7 +2838,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.features li {
-				width: calc(90%);
+				width: calc(50% - 2em);
 			}
 
 				.features li:nth-child(3) {
@@ -3326,7 +3326,6 @@ input, select, textarea {
 				#nav.alt ul li a {
 					font-size: 0.9em;
 				}
-
 		@media screen and (max-width: 736px) {
 
 			#nav {
@@ -3338,7 +3337,6 @@ input, select, textarea {
 				}
 
 		}
-
 /* Main */
 
 	#main {
@@ -3929,4 +3927,105 @@ input, select, textarea {
 	.barskill.expert::before{
 	  width: calc(100% - 10px);
 	}
-/* Skills Bar */
+/*End of Skills Bar */
+
+
+/* Mobile Menu */
+/*Strip the ul of padding and list styling*/
+#newmenu ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+/*Create a horizontal list with spacing*/
+#newmenu li {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+}
+/*Style for menu links*/
+#newmenu li a {
+    display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #2f3036;
+    text-decoration: none;
+}
+/*Hover state for top level links*/
+#newmenu li:hover a {
+    background: #19c589;
+}
+/*Style for dropdown links*/
+#newmenu li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+/*Hover state for dropdown links*/
+#newmenu li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+}
+/*Hide dropdown links until they are needed*/
+#newmenu li ul {
+    display: none;
+}
+/*Make dropdown links vertical*/
+#newmenu li ul li {
+    display: block;
+    float: none;
+}
+/*Prevent text wrapping*/
+#newmenu li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+#newmenu ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #19c589;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+/*Hide checkbox*/
+#newmenu input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+#newmenu input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/*Responsive Styles*/
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
+}
