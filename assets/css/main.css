@@ -3849,7 +3849,9 @@ input, select, textarea {
 /* Skills Bar */
 	.containerskill {
 	  width: 50%;
-	  margin: 0 auto;
+	  margin: 0 0;
+	  text-align: left;
+	  padding: 1em;
 	}
 	@keyframes load{
 	  from {
@@ -3877,14 +3879,15 @@ input, select, textarea {
 	  padding: 2px;
 	  border-radius: 15px;
 	  margin-bottom: 5px;
-	  font-size: 14px;
+	  font-size: 18px;
 	  color: #FFF;
 	  font-weight: bold;
 	  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	  text-transform: uppercase;
 	}
 	.barskill::before{
 	  content:  attr(data-skill);
-	  background-color: #f3b0ff;
+	  background-color: #13aff0;
 	  display: inline-block;
 	  padding: 5px 0 5px 10px;
 	  border-radius: inherit;
@@ -3894,11 +3897,19 @@ input, select, textarea {
 	  -o-animation: load 2s 0s;
 	}
 
+	.barskill.rear::before{
+	  background-color: #aacc00;
+	}
+
 	.barskill.front::before{
-	  background-color: #ffcc33;
+	  background-color: #ff7f51;
 	}
 	.barskill.back::before{
 	  background-color: #a6cfe3;
+	}
+
+	.barskill.side::before{
+	  background-color: #ff6392;
 	}
 
 	.barskill.learning::before{
