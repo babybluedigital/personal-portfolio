@@ -3354,7 +3354,7 @@ input, select, textarea {
 		}
 
 		#main strong, #main b {
-			color: #636363;
+			color: #dd1c1a;
 		}
 
 		#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
@@ -3383,7 +3383,7 @@ input, select, textarea {
 		#main input[type="button"],
 		#main button,
 		#main .button {
-			background-color: #13aff0;
+			background-color: #48bfe3;
 			box-shadow: inset 0 0 0 1px #dddddd;
 			color: #ffffff !important;
 			text-transform: uppercase;
