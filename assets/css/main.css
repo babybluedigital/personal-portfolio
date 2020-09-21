@@ -2995,7 +2995,6 @@ input, select, textarea {
 				.statistics li strong, .statistics li b {
 					font-size: 2.5em;
 				}
-
 		}
 
 /* Spotlight */
@@ -3951,3 +3950,10 @@ input, select, textarea {
 	  width: calc(100% - 10px);
 	}
 /*End of Skills Bar */
+.fa-python:before {
+	padding-left: 10px;
+}
+
+#eduicon {
+	font-size: 2em !important;
+}
