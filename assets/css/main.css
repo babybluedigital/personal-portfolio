@@ -2839,7 +2839,7 @@ input, select, textarea {
 
 		.features li {
 			width: calc(100%);
-			margin: 0 90px 40px 130px;
+			margin: 0 90px 40px 120px;
 			padding-top: 15px;
 			padding-right: 20px; 
 			padding-left: 20px;
@@ -2861,7 +2861,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.features li {
-				width: calc(80% - 2em);
+				width: calc(90%);
 			}
 
 				.features li:nth-child(3) {
@@ -3875,6 +3875,16 @@ input, select, textarea {
 	  text-align: left;
 	  padding: 1em;
 	}
+
+	@media screen and (max-width: 780px) {
+
+		.containerskill {
+			width: 100%;
+			text-align: center;
+		}
+
+	}
+
 	@keyframes load{
 	  from {
 	    width: 0%
