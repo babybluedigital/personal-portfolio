@@ -219,6 +219,23 @@ input, select, textarea {
 		font-size: 1.25em;
 	}
 
+/* Educational Section */
+	h3.educationh {
+	  color: #ffffff !important;
+	}
+
+	.exsplited {
+	    border: 0;
+	    margin: auto;
+	    margin-bottom: 10px;
+	    width: 60%;
+	    height: 1px;
+	    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #f8edeb, rgba(0, 0, 0, 0));
+	    }
+	}
+
+/* Educational Section */
+
 	h4 {
 		font-size: 1.1em;
 	}
@@ -2310,6 +2327,9 @@ input, select, textarea {
 		.icon.style5 {
 			color: #8cc9f0;
 		}
+		.icon.style6 {
+			color: #52b788;
+		}
 
 		@media screen and (max-width: 1680px) {
 
@@ -2908,6 +2928,9 @@ input, select, textarea {
 
 			.statistics li.style5 {
 				background-color: #8cc9f0;
+			}
+			.statistics li.style6 {
+				background-color: #52b788;
 			}
 
 			.statistics li strong, .statistics li b {
