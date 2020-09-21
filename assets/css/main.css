@@ -2861,7 +2861,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.features li {
-				width: calc(50% - 2em);
+				width: calc(80% - 2em);
 			}
 
 				.features li:nth-child(3) {
@@ -2873,7 +2873,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features li {
-				width: calc(50% - 2em);
+				width: calc(100%);
 			}
 
 				.features li:nth-child(3) {
