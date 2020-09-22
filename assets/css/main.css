@@ -2646,15 +2646,15 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
 	}
 
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0 0 0;
-			border: 1px solid;
+			border: 0.5px solid;
 			border-radius: 100%;
 			border-color: #f7f8f9;
+			margin: 5px;
 		}
 
 			ul.icons li:last-child {
