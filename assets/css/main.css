@@ -3878,7 +3878,7 @@ input, select, textarea {
 	box-shadow: none;
 	margin: 0; 
 	padding: auto;
-	text-align:left;
+	text-align:left !important;
 }
 
 
@@ -3984,7 +3984,7 @@ input, select, textarea {
 	padding-top: 0.5em;
 }
 
-/* Statistics1 */
+/* Statistics1 Section contains all the experience tiles*/
 
 	.statistics1 {
 		display: -moz-flex;
@@ -4107,3 +4107,34 @@ input, select, textarea {
 					font-size: 2.5em;
 				}
 		}
+/* End of Experience tiles css edits */
+
+.topnav {
+  overflow: hidden;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin: auto;
+  display: inline-block;
+  text-decoration: none !important;
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 5px 13px 5px 13px;
+  text-decoration: none !important;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.topnav a:hover, a:visited, a:link, a:active {
+    text-decoration: none !important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    border:0!important;
+}
