@@ -2665,7 +2665,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin-bottom: 3em;
+		margin-bottom: -0.5em;
 	}
 
 		header.major h2 {
@@ -4109,6 +4109,7 @@ input, select, textarea {
 		}
 /* End of Experience tiles css edits */
 
+/* Experience Tab Navigation Added */
 .topnav {
   overflow: hidden;
   background-color: #f7f7f7;
@@ -4138,3 +4139,8 @@ input, select, textarea {
     box-shadow: none!important;
     border:0!important;
 }
+
+.topnavdiv {
+	padding-bottom: 1em;
+}
+/* End of experience tab nav changes */
