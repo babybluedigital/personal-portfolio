@@ -4002,8 +4002,14 @@ input, select, textarea {
 	padding-left: 10px;
 }
 
-/* Eduicons 1 for each tile needed */
-#eduicon {
+/* Eduicons 1 for each tile needed in education section*/
+.eduicon {
+	font-size: 2em !important;
+	color: white !important;
+	padding-top: 0.5em;
+}
+
+#eduicon1 {
 	font-size: 2em !important;
 	color: white !important;
 	padding-top: 0.5em;
@@ -4034,6 +4040,18 @@ input, select, textarea {
 }
 
 #eduicon6 {
+	font-size: 2em !important;
+	color: white !important;
+	padding-top: 0.5em;
+}
+
+#eduicon7 {
+	font-size: 2em !important;
+	color: white !important;
+	padding-top: 0.5em;
+}
+
+#eduicon8 {
 	font-size: 2em !important;
 	color: white !important;
 	padding-top: 0.5em;
