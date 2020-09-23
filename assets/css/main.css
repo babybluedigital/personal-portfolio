@@ -4265,3 +4265,27 @@ input, select, textarea {
 	}
 }
 /* End of experience tab nav changes */
+
+/* Project Section CSS */
+
+h3.projects {
+	color: #000 !important;
+	}
+
+.statistics li.style8 {
+	background-color: #fff;
+	color: #13aff0 !important;
+	border: 1px solid;
+	border-color: #f1e4db;
+	border-radius: 10px;
+	box-shadow: 0 3px 3px rgb(200,200,200), 0 3px 3px rgb(200,200,200);
+	}
+
+.exsplited {
+    border: 0;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    }
