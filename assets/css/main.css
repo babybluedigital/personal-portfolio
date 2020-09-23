@@ -3848,7 +3848,7 @@ input, select, textarea {
 	margin: auto auto;
 }*/
 .ex-outer{
-    display: inline-block; 
+    display: inline-block;
 }
 .ex-frame{  
     width: 250px;
@@ -3856,7 +3856,7 @@ input, select, textarea {
     border: 1px solid transparent;
     vertical-align: middle;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }    
 .ex-frame img{
     max-width: 100%;
