@@ -3910,7 +3910,7 @@ input, select, textarea {
 	.containerskill {
 	  width: 50%;
 	  margin: 0 0;
-	  text-align: left;
+	  text-align: left !important;
 	  padding: 1em;
 	}
 
@@ -4002,11 +4002,43 @@ input, select, textarea {
 	padding-left: 10px;
 }
 
-#eduicon {
+/* Eduicons 1 for each tile needed */
+#eduicon1 {
 	font-size: 2em !important;
 	color: white !important;
 	padding-top: 0.5em;
 }
+
+#eduicon2 {
+	font-size: 2em !important;
+	color: white !important;
+	padding-top: 0.5em;
+}
+
+#eduicon3 {
+	font-size: 2em !important;
+	color: white !important;
+	padding-top: 0.5em;
+}
+
+#eduicon4 {
+	font-size: 2em !important;
+	color: white !important;
+	padding-top: 0.5em;
+}
+
+#eduicon5 {
+	font-size: 2em !important;
+	color: white !important;
+	padding-top: 0.5em;
+}
+
+#eduicon6 {
+	font-size: 2em !important;
+	color: white !important;
+	padding-top: 0.5em;
+}
+/* Eduicons 1 for each tile needed */
 
 /* Statistics1 Section contains all the experience tiles*/
 
