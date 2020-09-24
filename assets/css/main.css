@@ -4235,7 +4235,7 @@ input, select, textarea {
   text-align: center;
   padding: 5px 13px 5px 13px;
   text-decoration: none !important;
-  font-size: 17px;
+  font-size: 19px !important;
 }
 
 .topnav a:hover {
@@ -4287,5 +4287,20 @@ h3.projects {
     margin-bottom: 10px;
     width: 60%;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #f1e4db, rgba(0, 0, 0, 0));
     }
+
+ #projecticon1 {
+ 	font-size: 2em !important;
+ 	color: white !important;
+ 	padding-top: 0.5em;
+ }
+
+ .projecthr {
+ 	border: 0;
+ 	margin: auto;
+ 	margin-bottom: 10px;
+ 	width: 20%;
+ 	height: 1px;
+ 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #efa8b0, rgba(0, 0, 0, 0));
+ }
