@@ -2918,35 +2918,41 @@ input, select, textarea {
 				background-color: #efa8b0;
 				color: white !important;
 				padding-bottom: 1em;
+				margin: 0.5em;
 			}
 
 			.statistics li.style2 {
 				background-color: #c79cc8;
 				color: white !important;
 				padding-bottom: 1em;
+				margin: 0.5em;
 			}
 
 			.statistics li.style3 {
 				background-color: #a89cc8;
 				color: white !important;
 				padding-bottom: 1em;
+				margin: 0.5em;
 			}
 
 			.statistics li.style4 {
 				background-color: #9bb2e1;
 				color: white !important;
 				padding-bottom: 1em;
+				margin: 0.5em;
 			}
 
 			.statistics li.style5 {
 				background-color: #8cc9f0;
 				color: white !important;
 				padding-bottom: 1em;
+				margin: 0.5em;
 			}
 			.statistics li.style6 {
 				background-color: #52b788;
 				color: white !important;
 				padding-bottom: 1em;
+				margin: 0.5em;
 			}
 			.statistics li.style7 {
 				background-color: #ffffff;
@@ -4147,7 +4153,7 @@ input, select, textarea {
 				color: white !important;
 			}
 			.statistics1 li.style7 {
-				background-color: #fefeff;
+				background-color: #fdfdfd;
 				border: 1px solid;
 				border-color: #f1e4db;
 				border-radius: 10px;
@@ -4273,12 +4279,22 @@ h3.projects {
 	}
 
 .statistics li.style8 {
-	background-color: #fff;
+	background-color: #fdfdfd;
+	color: #2e2e2e !important;
+	border: 1px solid;
+	border-color: #f1e4db;
+	border-radius: 10px;
+	box-shadow: 0 3px 3px rgb(200,200,200), 0 3px 3px rgb(200,200,200);
+	}
+
+.statistics li.style9 {
+	background-color: #eeeeee;
 	color: #13aff0 !important;
 	border: 1px solid;
 	border-color: #f1e4db;
 	border-radius: 10px;
 	box-shadow: 0 3px 3px rgb(200,200,200), 0 3px 3px rgb(200,200,200);
+	margin: 0.5em;
 	}
 
 .exsplited {
@@ -4292,8 +4308,9 @@ h3.projects {
 
  #projecticon1 {
  	font-size: 2em !important;
- 	color: white !important;
+ 	color: #b0c0c6!important;
  	padding-top: 0.5em;
+ 	padding-bottom: 0.5em;
  }
 
  .projecthr {
@@ -4303,4 +4320,14 @@ h3.projects {
  	width: 20%;
  	height: 1px;
  	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #efa8b0, rgba(0, 0, 0, 0));
+ }
+
+ .exlinkprojects {
+ 	color: #90e0ef !important;
+ 	padding-top: 0px !important;
+ 	padding-bottom: 0px !important;
+ 	font-size: 20px;
+ 	text-transform: lowercase !important;
+ 	text-decoration: bold;
+ 	font-weight: 600;
  }
