@@ -4288,8 +4288,8 @@ h3.projects {
 	}
 
 .statistics li.style9 {
-	background-color: #eeeeee;
-	color: #13aff0 !important;
+	background-color: #fefefe;
+	color: #52585c !important;
 	border: 1px solid;
 	border-color: #f1e4db;
 	border-radius: 10px;
@@ -4307,10 +4307,20 @@ h3.projects {
     }
 
  #projecticon1 {
+ 	font-size: 1em !important;
+ 	color: #b0c0c6!important;
+ 	padding-top: 0.5em;
+ 	padding-bottom: 0.5em;
+ 	padding-right: 0.5em;
+ 	padding-left: 0.5em;
+ }
+
+ #projecticon2 {
  	font-size: 2em !important;
  	color: #b0c0c6!important;
  	padding-top: 0.5em;
  	padding-bottom: 0.5em;
+ 	padding-right: 0.5em;
  }
 
  .projecthr {
@@ -4330,4 +4340,27 @@ h3.projects {
  	text-transform: lowercase !important;
  	text-decoration: bold;
  	font-weight: 600;
+ }
+
+ h2.projectrole {
+ 	font-size: 22px !important;
+ 	color: #13aff0 !important;
+ }
+
+ .ex-outerproject {
+     display: inline-block;
+ }
+ .ex-frameproject {  
+     width: 150px;
+     height: 100px;
+     border: 1px solid transparent;
+     vertical-align: middle;
+     text-align: center;
+     padding-bottom: 10px;
+ }    
+ .ex-frameproject img {
+     max-width: 100%;
+     max-height: 100%;
+     display: block;
+     margin: auto;
  }
