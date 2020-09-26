@@ -2295,7 +2295,7 @@ input, select, textarea {
 
 		.icon.alt {
 			display: inline-block;
-			border: solid 1px;
+			border: solid 1px !important;
 			border-radius: 100%;
 		}
 
@@ -4291,7 +4291,7 @@ h3.projects {
 	background-color: #fefefe;
 	color: #52585c !important;
 	border: 1px solid;
-	border-color: #f1e4db;
+	border-color: #13aee0;
 	border-radius: 10px;
 	box-shadow: 0 3px 3px rgb(200,200,200), 0 3px 3px rgb(200,200,200);
 	margin: 0.5em;
@@ -4307,7 +4307,7 @@ h3.projects {
     }
 
  #projecticon1 {
- 	font-size: 1em !important;
+ 	font-size: 1.2em !important;
  	color: #b0c0c6!important;
  	padding-top: 0.5em;
  	padding-bottom: 0.5em;
@@ -4340,6 +4340,10 @@ h3.projects {
  	text-transform: lowercase !important;
  	text-decoration: bold;
  	font-weight: 600;
+ }
+
+ .exlinkprojects:hover {
+ 	color: #636363 !important;
  }
 
  h2.projectrole {
