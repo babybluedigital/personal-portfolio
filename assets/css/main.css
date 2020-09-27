@@ -4386,6 +4386,7 @@ h3.projects {
 	font-weight: 300 !important;
 	list-style-position: inside !important;
 	display: flex !important;
+	padding: 3px;
 }
 
 .babybluedivisions strong {
