@@ -4355,12 +4355,12 @@ h3.projects {
      display: inline-block;
  }
  .ex-frameproject {  
-     width: 150px;
-     height: 100px;
+     width: 160px;
+     height: 110px;
      border: 1px solid transparent;
      vertical-align: middle;
      text-align: center;
-     padding-bottom: 10px;
+     padding-bottom: 7px;
  }    
  .ex-frameproject img {
      max-width: 100%;
@@ -4368,3 +4368,10 @@ h3.projects {
      display: block;
      margin: auto;
  }
+
+.projectimage {
+	margin-top: 30px !important;
+	max-width: 100% !important;
+	max-height: 100% !important;
+	height: 50px !important;
+}
