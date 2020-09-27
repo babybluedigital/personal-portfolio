@@ -4351,6 +4351,11 @@ h3.projects {
  	color: #13aff0 !important;
  }
 
+ h2.projectrolea {
+ 	font-size: 27px !important;
+ 	color: #13aff0 !important;
+ }
+
  .ex-outerproject {
      display: inline-block;
  }
@@ -4374,4 +4379,17 @@ h3.projects {
 	max-width: 100% !important;
 	max-height: 100% !important;
 	height: 50px !important;
+}
+
+.babybluedivisions {
+	font-size: 15px !important;
+	font-weight: 300 !important;
+	list-style-position: inside !important;
+	display: flex !important;
+}
+
+.babybluedivisions strong {
+	font-size: 16px !important;
+	font-weight: 400 !important;
+	display: inline !important;
 }
