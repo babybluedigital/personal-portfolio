@@ -3003,7 +3003,7 @@ input, select, textarea {
 
 			.statistics {
 				display: block;
-				width: 20em;
+				width: 40em;
 				max-width: 100%;
 				margin: 0 auto 2em auto;
 			}
@@ -4154,6 +4154,12 @@ input, select, textarea {
 
 /* Project Section CSS */
 
+.keydelivery {
+	font-size: 1.2em;
+	font-weight: 400;
+	color: rgb(255,159,28,0.6) !important;
+}
+
 h3.projects {
 	color: #000 !important;
 	}
@@ -4276,7 +4282,14 @@ h3.projects {
 	display: inline !important;
 }
 
-
+@media screen and (max-width: 720px) {
+	.babybluedivisions {
+		max-width: 100%;
+		width: 70%;
+		display: block !important;
+		margin: auto;
+	}
+}
 
 /*Floating Back-To-Top Button*/
 #myBtn {
@@ -4522,7 +4535,7 @@ h3.projects {
  * at the top left of the screen
  */
 .mobilemenu {
-  width: 720px;
+  width: 750px;
   margin: -80px 0 0 -30px;
   padding: 50px;
   padding-top: 75px;
@@ -4553,7 +4566,7 @@ h3.projects {
 }
 
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 736px) {
   #menuToggle {
     display: none;
   }
