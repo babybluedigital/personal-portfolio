@@ -4298,15 +4298,14 @@ h3.projects {
     float: right;
     right: 13.5%;
     left: 86.5%;
-    font-size: 25px;
-    transform: scale(1.5, .9) !important;
+    font-size: 30px;
 }
 
 #back_top_icon a {
-	color: rgb(255,159,28,0.4) !important;
-	border: solid 2px !important;
+	color: rgb(255,159,28,0.6) !important;
+	border: solid 3px !important;
 	padding: 5px !important;
-	border-radius: 60%;
+	border-radius: 50%;
 }
 
 #back_top_icon:hover a {
