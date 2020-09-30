@@ -4313,7 +4313,7 @@ h3.projects {
 	color: #13aff0 !important;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (max-width: 760px) {
 	#back_top_icon {
 		right: 15% !important;
 		left: 85% !important;
