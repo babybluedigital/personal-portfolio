@@ -4299,7 +4299,7 @@ h3.projects {
     right: 13.5%;
     left: 86.5%;
     font-size: 25px;
-    transform: scale(1.5, .9);
+    transform: scale(1.5, .9) !important;
 }
 
 #back_top_icon a {
@@ -4324,6 +4324,7 @@ h3.projects {
 	#back_top_icon {
 		right: 15% !important;
 		left: 85% !important;
+		transform: scale(1, 1);
 	}
 }
 
