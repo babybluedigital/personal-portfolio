@@ -4302,10 +4302,10 @@ h3.projects {
 }
 
 #back_top_icon a {
-	color: rgb(255,159,28,0.6) !important;
+	color: rgb(255,159,28,0.4) !important;
 	border: solid 3px !important;
-	padding: 5px !important;
-	border-radius: 50%;
+	padding: 3px !important;
+	border-radius: 10%;
 }
 
 #back_top_icon:hover a {
