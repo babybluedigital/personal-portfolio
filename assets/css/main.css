@@ -4312,11 +4312,18 @@ h3.projects {
 #back_top_icon:hover a {
 	color: #13aff0 !important;
 }
- 
+
 @media screen and (min-width: 760px) {
 	#back_top_icon {
-		right: 10% !important;
-		left: 90% !important;
+		right: 15% !important;
+		left: 85% !important;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	#back_top_icon {
+		right: 15% !important;
+		left: 85% !important;
 	}
 }
 
@@ -4446,8 +4453,8 @@ h3.projects {
 #menuToggle {
   display: block;
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 10px;
+  left: 10px;
   z-index: 1; 
   -webkit-user-select: none;
   user-select: none;
