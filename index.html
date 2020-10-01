@@ -10,7 +10,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script type="text/javascript" src="assets/js/menu.js"></script>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -779,6 +778,24 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+
+			var checkbox = document.querySelector( '#myInput' );
+			var icon = document.querySelector( '#menuToggle span' );
+			var listener = function( e ) {
+			  if( e.target != checkbox && e.target != icon ) {
+			    checkbox.checked = false;
+			    document.removeEventListener( 'click', listener );
+			  }
+			};
+
+			checkbox.addEventListener( 'click', function(){
+			  if( this.checked ) {
+			    document.addEventListener( 'click', listener );
+			  } 
+			});
+
+			</script>
 
 	</body>
 </html>
