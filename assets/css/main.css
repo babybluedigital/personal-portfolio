@@ -3777,6 +3777,10 @@ input, select, textarea {
 	text-align:left !important;
 }
 
+.references {
+	margin-bottom: 5em !important;
+}
+
 .references li {
 	width: 100%;
 	/*border: solid 2px 0px 0px 0px rgb(240,240,240);*/
