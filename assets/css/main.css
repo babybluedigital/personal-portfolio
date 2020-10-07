@@ -2646,6 +2646,7 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
+		padding-left: 0em !important;
 	}
 
 		ul.icons li {
@@ -4359,6 +4360,39 @@ h3.projects {
 		right: 15% !important;
 		left: 85% !important;
 		transform: scale(1, 1);
+	}
+}
+
+/*Fixed Return Home Button*/
+#return_top_icon {
+	position: absolute;
+	margin: auto;
+	left: 84%;
+    top: 2% !important;
+    font-size: 17px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 5px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+#return_top_icon a {
+	color: rgb(255,255,255,0.6) !important;
+	border: solid 2px !important;
+	padding: 3px !important;
+	border-radius: 5px;
+}
+
+#return_top_icon:hover a {
+	color: #13aff0 !important;
+}
+
+@media screen and (max-width: 760px) {
+	#return_top_icon {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	#return_top_icon {
+		display: none;
 	}
 }
 
