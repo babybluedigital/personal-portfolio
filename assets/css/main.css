@@ -4217,6 +4217,13 @@ h3.projects {
 	border-radius: 10px;
 	box-shadow: 0 3px 3px rgb(200,200,200), 0 3px 3px rgb(200,200,200);
 	margin: 0.5em;
+	margin-top: 2em;
+	}
+
+	@media screen and (max-width: 425px) {
+		.statistics li.style9 {
+			padding-top: 100px !important;
+		}
 	}
 
 .exsplited {
